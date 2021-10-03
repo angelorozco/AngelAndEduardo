@@ -1,3 +1,9 @@
+body {
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    
+}
 #main {
     display: flex;
     flex-direction: column;
@@ -8,8 +14,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-shrink: 1;
+    min-width: 400px;
+    min-height: auto;
+    max-width:100%;
+    
+    
 }
 
 #img {
-    min-width: 365px;
+    flex-shrink:1;
+    
+    
+    min-width: auto;
+    min-height: auto;
+    max-width:100%;
+
+
+}
+#img-div img {
+    flex-shrink:1;
+    
+    
+    min-width: auto;
+    min-height: auto;
+    max-width:100%;
+}
+
+
+#img-caption {
+    flex-shrink: 1;
+    flex-basis:auto;
 }
