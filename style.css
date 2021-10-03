@@ -1,5 +1,15 @@
 #main {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img {
+    min-width: 365px;
 }
